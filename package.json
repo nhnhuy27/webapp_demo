@@ -1,0 +1,21 @@
+{
+  "name": "mernstack",
+  "version": "1.0.0",
+  "description": "beginner fullstack app",
+  "main": "server.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "server": "nodemon backend/server.js"
+  },
+  "author": "nhnhuy27",
+  "license": "MIT",
+  "dependencies": {
+    "color": "^4.2.3",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^7.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
